@@ -43,7 +43,7 @@ if [[ ! -f /opt/HOSTKEEPER_SUCCESSFULLY_INSTALLED ]]; then
     run touch /vagrant/db.dnsmasq
     echo "Compile assets of hostkeeper web interface ..."
     cd /vagrant/public
-    run npm install -g grunt-cli bower json
+    run npm install -g grunt-cli bower json mocha
     run npm install
     run bower install --allow-root
     run grunt
