@@ -4,7 +4,7 @@
   "description": "Node API server for hostkeeper",
   "private": true,
   "scripts": {
-    "test": "mocha"
+    "test": "cp vagrant-opt/db.mocha.original.json vagrant-opt/db.mocha.json && mocha"
   },
   "repository": {
     "type": "git",

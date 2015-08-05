@@ -4,6 +4,7 @@
 
 ### hostkeeper ###
 .vagrant/
+vagrant-opt/db.mocha.json
 
 ### hostkeeper-WebUI ###
 public/.sass-cache
