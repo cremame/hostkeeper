@@ -3,7 +3,7 @@ var chai = require('chai')
 var assert = chai.assert
     , expect = chai.expect
     , should = chai.should();
-var config = require('/vagrant/vagrant-opt/config.mocha.json');
+var config = require('../vagrant-opt/config.mocha.json');
 
 describe('REST API', function() {
   describe('Route "GET /api/show"', function() {
